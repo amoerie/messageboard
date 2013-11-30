@@ -1,0 +1,59 @@
+﻿<div class="progress progress-striped active" data-ng-show="isBusy">
+    <div class="progress-bar progress-bar-info" style="width: 100%;"></div>
+</div>
+
+<div>
+    <a class="btn btn-default" href="/topics">
+        <i class="fa fa-arrow-circle-left"></i> Terug naar het prikbord
+    </a>
+</div>
+
+<div class="topic" data-ng-hide="isBusy">
+    <div class="content">
+        <div class="row">
+            <div class="title col-xs-8 col-md-10">
+                <span class="title-link">{{ topic.title }}</span>
+            </div>
+            <div class="date col-xs-4 col-md-2">
+                <span class="pull-right">{{ topic.creationDate | date:'medium' }}</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="body col-sm-12">{{ topic.body }}</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="replies">
+                <div class="reply row" data-ng-repeat="reply in topic.replies">
+                    <div class="col-sm-11 col-sm-offset-1">
+                        <div class="content">
+                            <div class="row">
+                                <div class="body col-xs-8 col-md-10">{{ reply.body }}</div>
+                                <div class="date col-xs-4 col-md-2"><span class="pull-right">{{ reply.creationDate | date:'medium' }}</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-11 col-sm-offset-1">
+                        <form role="form" class="form-horizontal" name="newReplyForm" novalidate data-ng-submit="addReply()">
+                            <div class="form-group" data-ng-class="{ 'has-error': newReplyForm.body.$invalid && newReplyForm.body.$dirty }">
+                                <div class="col-sm-12">
+                                    <textarea name="body" class="form-control" data-ng-model="newReply.body" required rows="2" placeholder="Typ een reactie"/>
+                                    <span class="help-block" data-ng-show="newReplyForm.body.$error.required && newReplyForm.title.$dirty">Je mag geen lege reacties plaatsen</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="submit" class="btn btn-success" value="Verstuur" data-ng-disabled="isSendingReply || newReplyForm.$invalid"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

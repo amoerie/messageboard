@@ -1,0 +1,27 @@
+﻿<div>
+    <a href="/new-topic" class="btn btn-success">
+        <i class="fa fa-plus"></i> Nieuw bericht plaatsen
+    </a>
+</div>
+
+<div class="progress progress-striped active" data-ng-show="isBusy">
+    <div class="progress-bar progress-bar-info" style="width: 100%;"></div>
+</div>
+
+<div class="topics" data-ng-hide="isBusy">
+    <div class="topic" data-ng-repeat="topic in data.topics | orderBy:'-creationDate'" data-ng-click="go('/topic/' + topic.id)">
+        <div class="content">
+            <div class="row">
+                <div class="title col-xs-8 col-md-10">
+                    <span class="title-link">{{ topic.title }}</span>
+                </div>
+                <div class="date col-xs-4 col-md-2">
+                    <span class="pull-right">{{ topic.creationDate | date:'medium' }}</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="body col-sm-12">{{ topic.body }}</div>
+            </div>
+        </div>
+    </div>
+</div>

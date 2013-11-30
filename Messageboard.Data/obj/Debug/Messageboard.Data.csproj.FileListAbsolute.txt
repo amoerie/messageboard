@@ -1,0 +1,15 @@
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\Messageboard.Data.dll.config
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\Messageboard.Data.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\Messageboard.Data.pdb
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\LinqKit.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\Messageboard.Domain.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\Messageboard.Domain.pdb
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\obj\Debug\Messageboard.Data.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\obj\Debug\Messageboard.Data.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\obj\Debug\Messageboard.Data.pdb
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\obj\Debug\Messageboard.Data.Migrations.InitialCreate.resources
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Data\obj\Debug\Messageboard.Data.csproj.GenerateResource.Cache

@@ -1,0 +1,11 @@
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\Messageboard.Domain.dll.config
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\Messageboard.Domain.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\Messageboard.Domain.pdb
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\LinqKit.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\obj\Debug\Messageboard.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\obj\Debug\Messageboard.Domain.dll
+C:\Users\Alexander\Projects\c#\Messageboard\Messageboard.Domain\obj\Debug\Messageboard.Domain.pdb
